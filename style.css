@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+body,p ,h1{
+	margin: 0;
+	padding: 0;
+}
+header{
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120px;
+	width: calc(90% - 50px);
+	padding-left: 113px;
+}
+.header ul{
+	list-style: none;
+	display: flex;
+	color: #B08EAD;
+	font-family: 'Cormorant Garamond', serif;
+	gap: 40px;
+	padding: 0;
+	font-size: 24px;
+	line-height: 30px;
+}
+.header_menu{
+	display: flex;
+	align-items: center;
+}
+.basket{
+	padding-left: 45px;
+}
+.present{
+	position: relative;
+	height: 817px;
+	background: linear-gradient( #C9ADC6 50%, #D6BBD3 50%);
+}
+.main{
+	position: absolute;
+	left: 178px;
+	top: 72px;
+}
+.present_text{
+	position: absolute;
+	background: #B08EAD;
+	width: 425px;
+	height: 450px;
+	left: 902px;
+	top: 182px;
+	padding-left: 40px;
+}
+.present_text p{
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 30px;
+	padding-top: 124px;
+	letter-spacing: 1.5px;
+	padding-bottom: 10px;
+}
+.present_text h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 55px;
+	color: #FFFFFF;
+}
+.present_text a{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	color: #FFFFFF;
+	padding-top: 22px;
+}
