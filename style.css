@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-body,p ,h1,h2,h4{
+body,p ,h1,h2,h3,h4{
 	margin: 0;
 	padding: 0;
 }
-header{
 
-}
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -24,12 +22,23 @@ header{
 	font-size: 24px;
 	line-height: 30px;
 }
+.header li{
+	cursor: pointer;
+}
 .header_menu{
 	display: flex;
 	align-items: center;
 }
 .basket{
 	padding-left: 45px;
+}
+.basket button{
+	width: 22px;	
+	height: 20px;	
+	background-image: url(images/basket.png);
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
 }
 .present{
 	position: relative;
@@ -199,4 +208,37 @@ section .info{
 .products_text{
 	padding-right: 88px;
 	padding-left: 85.5px;
+}
+section .pilows{
+	display: flex;	
+	justify-content: center;	
+}
+.pilows{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 91px;	
+}
+.cushions{
+	padding-right: 26px;	
+}
+.cushions h3{
+	font-family: 'Cormorant Garamond';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #5F4D5D;
+	text-align: center;
+	padding-top: 9px;		
+}
+.cushions p{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #B0B0B0;
+	text-align: center;	
+	padding-top: 7px;	
+}
+.under-cushion{
+	padding-top: 54px;	
 }
