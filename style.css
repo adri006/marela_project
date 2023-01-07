@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-body,p ,h1{
+body,p ,h1,h2,h4{
 	margin: 0;
 	padding: 0;
 }
@@ -68,10 +68,82 @@ header{
 }
 .present_text a{
 	font-family: 'Roboto';
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 30px;
 	letter-spacing: 1.5px;
 	color: #FFFFFF;
 	padding-top: 22px;
+	border-bottom: 3px solid #fff;
+	text-decoration: none;
+}
+.present_text a:hover{
+	cursor: pointer;
+} 
+.cushion{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.cushion_title{
+	padding-top: 74px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #B99BB6;
+}
+.cushion_text{
+	padding-top: 13px;
+	font-family: 'Cormorant Garamond';
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 38px;
+	text-align: center;
+	color: #5F4D5D;
+}
+.cushion_button{
+	margin-top: 17px;
+	border: 1px solid #B99BB6;
+	background-color: #fff;
+	border-radius: 25px;
+	font-family: 'Roboto';
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	letter-sacing: 1.5px;
+	color: #B99BB6;
+	padding: 15px 23px 13px 23px;
+	cursor: pointer;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.icons{
+	height: 427px;
+	width: 368px;
+	margin-right: 37px;
+	background-color: #CEB3CB;
+}
+.icons h2{
+	font-family: 'Cormorant Garamond';
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding-top: 23px;
+	padding-left: 23px;
+}
+.icons a{
+	text-decoration: none;
+	font-family: 'Cormorant Garamond';
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding-left: 23px;
+	padding-top: 6px;
 }
